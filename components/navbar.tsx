@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button"
 import { Shield } from "lucide-react"
 import Link from "next/link"
+import { ConnectWallet } from "@/components/connect-wallet/page "
 
 export function Navbar() {
   return (
@@ -9,7 +9,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Shield className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">BlockCertify</span>
+            <span className="text-xl font-bold text-foreground">Certify</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
@@ -27,9 +27,7 @@ export function Navbar() {
             </a>
           </div>
 
-          <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90">
-            Connect Wallet
-          </Button>
+          <ConnectWallet />
         </div>
       </div>
     </nav>
