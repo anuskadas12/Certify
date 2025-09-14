@@ -175,7 +175,7 @@ export default function VerificationPage() {
           </div>
 
           {/* How Verification Works */}
-          <Card className="mt-8">
+          {/* <Card className="mt-8">
             <CardHeader>
               <CardTitle>How Blockchain Verification Works</CardTitle>
             </CardHeader>
@@ -210,7 +210,7 @@ export default function VerificationPage() {
                 </div>
               </div>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
 
