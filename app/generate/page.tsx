@@ -227,7 +227,7 @@ export default function GenerateCertificate() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   {/* <Hash className="h-5 w-5" /> */}
-                  Blockchain Token
+                  Certificate
                 </CardTitle>
                 {/* <CardDescription>Generated hash and blockchain storage information</CardDescription> */}
               </CardHeader>
